@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    margin-bottom: 40px;
+    background-color: orange;
+}
+
+header img{
+    max-height: 48px;
+}
+
+body{
+    background-color: gray;
+}
+
+.newToDo{
+    display: none;
+}
+
+.newToDo form{
+    margin: 32px auto; 
+}
+
+.newToDo form input, .newToDo form button{
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.newToDo form button{
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+.newToDo form input{
+    background-color: gray;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid orange;
+}
+
+.newToDo form input:focus{
+    outline: none;
+}
+
+#mainSectHeader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+#mainSectHeader button{
+    padding: 8px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+section h2{
+    margin-right: 16px;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul{
+    width: 100%;
+    list-style: none;
+}
+
+.taskCard{
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 8px;
+    background-color: beige;
+    margin: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.taskCard img{
+    margin-right: 8px;
+}
+
+.done{
+    color: green;
+    text-decoration: line-through;
+}
+

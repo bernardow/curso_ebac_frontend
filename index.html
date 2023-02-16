@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <img src="/rsc/logo.svg.png" alt="logo">
+        <h1>To Dooby Dooby Do</h1>
+    </header>
+    <main>
+        <section id="mainSectHeader">
+            <h2>Para Hoje</h2>
+            <button id="addNewToDo" type="button">Adicionar +</button>
+        </section>
+        <div class="newToDo">
+            <div class="container">
+                <form>
+                    <input id="taskName" required type="text">
+                    <button id="btnAddTask" type="submit">Adicionar</button>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <ul id="toDoList">
+            </ul>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
