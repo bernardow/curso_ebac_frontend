@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <a href="/Screens/Home/"><img src="/rsc/logo.jpeg" alt="logo"></a>
+            <h1>Demon Slashers</h1>
+        </div>
+    </header>
+    <main>
+        <section id="buyForm">
+            <h2>Faça seu cadastro</h2>
+            <div class="buyContainer">
+                <form>
+                    <div class="formField">
+                        <label class="headline" for="nome">Insira seu nome</label>
+                        <input required type="text" id="nome" name="nome" placeholder="João da Silva">
+                    </div>
+                    <div class="formField">
+                        <label class="headline" for="cpf">Insira seu CPF</label>
+                        <input required type="text" id="cpf" name="cpf">
+                    </div>
+                    <div class="formField">
+                        <label class="headline" for="telefone">Insira seu telefone</label>
+                        <input required type="tel" id="telefone" name="tel">
+                    </div>
+                    <div class="formField">
+                        <label class="headline" for="email">Insira seu email</label>
+                        <input required type="email" id="email" placeholder="joao@gmail.com" name="email">
+                    </div>
+                    <div class="formField">
+                        <label class="headline" for="cep">Insira seu CEP</label>
+                        <input required type="text" id="cep" name="cep">
+                    </div>
+                    <div class="formField">
+                        <label class="headline" for="endereco1">Insira seu endereco 1</label>
+                        <input required type="text" id="endereco1" placeholder="Rua 123, 100" name="endereco1">
+                    </div>
+                    <div class="formField">
+                        <label class="headline" for="endereco2">Insira seu endereco2</label>
+                        <input required type="text" id="endereco2" placeholder="Bairro Centro" name="endereco2">
+                    </div>
+                    <button id="btnRegister" type="submit">Finalizar Cadastro</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>2023 - &copy; Todos os direitos reservados</p>
+            <ul>
+                <li><img src="/rsc/instagram.png" alt="instagram-logo"></li>
+                <li><img src="/rsc/facebook.png" alt="facebook-logo"></li>
+                <li><img src="/rsc/youtube2.png" alt="youtube-logo"></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/Plugins/jquery.mask.min.js"></script>
+    <script src="/Plugins/jquery.validate.min.js"></script>
+    <script src="/Plugins/messages_pt_BR.min.js"></script>
+    <script src="/Screens/BuyScreen/buyScreen.js"></script>
+</body>
+</html>

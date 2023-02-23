@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1,h2{
+    text-transform: uppercase;
+}
+
+body > header{
+    background-color: orange;
+    padding: 16px;
+}
+
+header img{
+    mix-blend-mode: multiply;
+    max-height: 120px;
+    margin-right: 16px;
+}
+
+header > .container{
+    align-items: center;
+}
+
+body{
+    background-color: beige;
+}
+
+main h2{
+    text-align: center;
+    font-size: 36px;
+    margin: 48px 0;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+.cardContainer{
+    background-color: orange;
+    border-radius: 10px;
+    margin: 0 8px;
+    padding: 10px;
+}
+
+.cardContainer > header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.clientsCarousel{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clientsCarousel ul{
+    display: flex;
+    
+}
+
+.clientsCarousel ul li{
+    list-style: none;
+    flex-wrap: wrap;
+    width: 30%;
+    
+}
+
+.clientsCarousel img{
+    max-height: 48px;
+    mix-blend-mode: normal;
+    border-radius: 4px;
+}
+
+.mainImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImage img{
+    width: 50%;
+    mix-blend-mode: multiply;
+}
+
+#buyProduct a{
+    padding: 16px;
+    height: 70px;
+    width: 280px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buyButton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+footer{
+    padding: 16px;
+    background-color: orange;
+}
+
+footer > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+footer img{
+    max-height: 32px;
+    mix-blend-mode: multiply;
+}
+
+.buyContainer form{
+    width: 50%;
+    display: block;
+}
+
+.buyContainer{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.formField{
+    width: 100%;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.formField input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.formField label{
+    cursor: pointer;
+}
+
+.formField .headline{
+    font-size: 16px;
+}
+
+.buyContainer form button{
+    display: flex;
+    padding: 16px;
+    margin: 32px auto;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.error{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
