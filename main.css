@@ -38,7 +38,7 @@ header{
 }
 
 form{
-    width: 560px;
+    width: 100%;
     margin: 32px auto;
     display: block;
 }
@@ -55,7 +55,7 @@ label.error{
     background-color: red;
     border-radius: 5px;
     color: #fff;
-    padding: 4px;
+    padding: 6px;
     margin: 8px 0;
     font-size: 12px;
 }
@@ -93,4 +93,19 @@ footer p{
 
 .register{
     padding: 56px 0;
+}
+
+#itemCentral{
+    margin: 0 24px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    #itemCentral {
+        margin: 18px 0;
+    }
+
+    .card{
+        width: 90%;
+    }
 }
