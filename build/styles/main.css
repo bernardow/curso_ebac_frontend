@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}.container{width:70vw;margin:0 auto;display:grid;place-items:center}header{background-color:#7fffd4;padding:24px}header .container{display:flex;width:80vw}section{padding:3em 0}.about-grid{display:grid;grid-template-columns:39.25% 59.25%;column-gap:1.5%;margin-top:3em}.about-grid img{width:100%}@media screen and (max-width: 767px){.about-grid{grid-template-columns:100%;grid-template-rows:78.25% 20.25%;row-gap:1.5%}.about-grid img{max-height:100%}}
+/*# sourceMappingURL=maps/main.css.map */

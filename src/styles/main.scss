@@ -1,0 +1,45 @@
+@use 'config/reset';
+
+.container{
+    width: 70vw;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 24px;
+
+    .container{
+        display: flex;
+        width: 80vw;
+    }
+}
+
+section{
+    padding: 3em 0;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 39.25% 59.25%;
+    column-gap: 1.5%;
+    margin-top: 3em;
+
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .about-grid{
+        grid-template-columns: 100%;
+        grid-template-rows: 78.25% 20.25%;
+        row-gap: 1.5%;
+
+        img{
+            max-height: 100%;
+        }
+    }
+}
